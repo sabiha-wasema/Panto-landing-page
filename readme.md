@@ -5,6 +5,7 @@ The Frontend Project is a website that displays furniture and interior design pr
 ## Demo
 You can view a live demo of the website at ( https://frontend-website-design.netlify.app/ )
 ## Features
+* Responsive design for various screen sizes
 * Navigation menu with dropdown options
 * Showcase of best selling products
 * Client testimonials
