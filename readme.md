@@ -3,6 +3,11 @@ This is a simple responsive website for showcasing furniture and interior design
 ## Description
 The Frontend Project is a website that displays furniture and interior design products in a modern and minimalistic style. It features a responsive design that adapts well to various screen sizes, providing a seamless experience for users on both desktop and mobile devices.
 ## Demo
-You can view a live demo of the website at ()
+You can view a live demo of the website at ( https://frontend-website-design.netlify.app/ )
 ## Features
-* Responsive design for various screen sizes
+* Navigation menu with dropdown options
+* Showcase of best selling products
+* Client testimonials
+* Interactive "Why Choosing Us" section
+* Information about materials used
+* Contact information in the footer
