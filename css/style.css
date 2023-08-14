@@ -1,0 +1,616 @@
+/* .header-section{
+    background-image: url("image/bg.png");
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Base styles */
+.bg-image {
+  background-image: url("../image/bg.png");
+  /* background-color: #cccccc; */
+  /* height: 1080px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.navbar-nav > li {
+  /* margin-left:30px; */
+  /* margin-right: 35px; */
+  margin-right: 15px; /* Adjust as needed */
+}
+.navbar-brand {
+  /* margin-left: 30px; */
+  margin-left: 15px; /* Adjust as needed */
+}
+
+.navbar-nav {
+  /* margin-left: 0; */
+  margin-left: 200px; 
+}
+.search-body {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto;
+  /* width: 344px;
+  height: 56px;
+  margin-left: 400px; */
+}
+
+.header-container {
+  margin-top: 10%;
+  padding: 0 15px;
+  text-align: center;
+  /* margin-top: 100px; */
+}
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  /* font-size: 60px;
+  font-weight: bold; */
+}
+
+.header-detail {
+  font-size: 1rem;
+  margin-top: 15px;
+  /* font-size: 20px;
+  margin-top: 25px; */
+}
+.search-body {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #96d3ec !important;
+  border-color: #96d3ec;
+  color: white;
+}
+.fa-lock {
+  margin-left: 300px;
+  font-size: 20px;
+}
+/* Search icon style */
+.fa-magnifying-glass {
+  background-color: #e58411;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+/* header section end */
+
+.detail-section {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.detail-section p {
+  color: lightslategray;
+  margin-top: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.detail-section button {
+  margin-top: 0;
+  border: none;
+  padding: 5px 10px;
+  background-color: white;
+  color: #e58411;
+}
+.card-body {
+  margin-bottom: 10px;
+}
+.card {
+  margin: 15px;
+}
+.card img {
+  height: 255px;
+  padding: 20px;
+}
+.card-body h6 {
+  color: #8d8d8d;
+  margin-bottom: 0;
+}
+.card-body h5 {
+  color: #0d1b39;
+  font-weight: 700;
+  margin-top: 6px;
+}
+.card-body i {
+  font-size: 13px;
+  margin-right: 3px;
+}
+.card-footer {
+  /* border: none; */
+  margin-bottom: 15px;
+}
+.card-footer span {
+  color: #0d1b39;
+}
+.card-footer i {
+  color: #0d1b39;
+}
+.selling-section button {
+  margin-top: 0;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #e58411;
+  font-weight: 600;
+  font-size: 17px;
+}
+.bg-nav {
+  background-color: #eeeeee;
+}
+.bg-nav a button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.experience-section {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.experience-section img {
+  width: 630px;
+  height: 445px;
+}
+.experience-section h6 {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #e58411;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.experience-section h2 {
+  margin-top: 15px;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.experience-section p {
+  margin-top: 20px;
+  margin-right: 40px;
+  color: lightslategray;
+}
+.experience-section button {
+  margin-top: 0;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #e58411;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/* materials section style start */
+
+.materials-section {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.materials-section h6 {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #e58411;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.materials-section h1 {
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.materials-section p {
+  margin-top: 20px;
+  margin-right: 45px;
+  color: lightslategray;
+}
+.materials-section button {
+  margin-top: 0;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #e58411;
+  font-weight: 600;
+  font-size: 17px;
+}
+/* materials section style end */
+
+/* testimonial section style start */
+
+.testimonial-section {
+  margin-top: 100px;
+  padding: 30px;
+}
+.testimonial-section h6 {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #e58411;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.testimonial-section h2 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.top-img {
+  background-image: url("../image/1.png");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.middle-img {
+  background-image: url("../image/3.png");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.bottom-img {
+  background-image: url("../image/2.png");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.person-container {
+  width: 340px;
+  min-height: 250px;
+  background-color: white;
+  margin-top: 210px;
+  margin-left: 3px;
+  position: relative;
+}
+.person-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 7px solid white;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.person-container h5 {
+  margin-top: 35px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.person-container #author {
+  color: lightslategray;
+  margin-top: 6px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* testimonial section style end */
+
+/* footer section style start */
+
+.footer-section {
+  margin-top: 100px;
+}
+.footer-section h4 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-section #company-detail {
+  color: rgb(61, 66, 71);
+  margin-right: 20px;
+}
+.footer-section h6 {
+  color: #e58411;
+  margin-bottom: 20px;
+}
+.contact-info i {
+  font-size: 20px;
+}
+.copyright-section #copyright {
+  color: rgb(128, 142, 156);
+  margin-left: 80px;
+  font-size: 18px;
+}
+.policy a {
+  text-decoration: none;
+  /* color: rgb(46, 45, 45); */
+  color: #0d1b39;
+  font-weight: 700;
+  margin-right: 25px;
+}
+.policy {
+  margin-right: 100px;
+}
+
+/* footer section style end */
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 991px) {
+  .navbar-nav > li,
+  .navbar-brand {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .header-title {
+    font-size: 2rem;
+  }
+  
+  .header-detail {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    display: none;
+  }
+  
+  .navbar-toggler {
+    display: block;
+  }
+  
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+  
+  .navbar-nav.dropdown-menu {
+    position: static;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  
+  .navbar-nav.dropdown-menu a {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .bg-image {
+    height: auto;
+    background-position: top;
+  }
+  
+  .header-container {
+    margin-top: 10%;
+    padding: 20px;
+  }
+  
+  .header-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  
+  .header-detail {
+    font-size: 0.9rem;
+  }
+  
+  .search-body {
+    margin-top: 20px;
+  }
+  
+  .fa-lock {
+    margin-left: 10px;
+  }
+  
+  .fa-magnifying-glass {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-section{
+    padding: 0 20px;
+  }
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .experience-section img {
+    margin-left: 50px;
+    width: 310px;
+    height: 245px;
+    border-radius: 20px;
+  }
+  .experience-section h6 {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #e58411;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  .experience-section h2 {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .experience-section p {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: lightslategray;
+  }
+  .selling-section h1 {
+    font-size: 20px;
+  }
+
+  /* materials section media query start */
+
+  .materials-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+  .container-fluid{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .materials-section h6 {
+    font-size: 14px;
+  }
+  .materials-section h1 {
+    font-size: 25px;
+  }
+  .materials-section p {
+    margin-right: 35px;
+  }
+  .materials-section button {
+    font-size: 15px;
+  }
+  .grid-image img {
+    width: 220px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  /* materials section media query end */
+
+  /* testimonial section media query start */
+
+  .testimonial-section {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .testimonial-section h6 {
+    font-size: 17px;
+  }
+  .testimonial-section h2 {
+    font-size: 28px;
+  }
+  .person-container {
+    width: 310px;
+    min-height: 250px;
+    margin-top: 210px;
+    margin-left: 3px;
+    position: relative;
+  }
+  .person-container img {
+    width: 60px;
+    height: 60px;
+    border: 5px solid white;
+  }
+  .person-container h5 {
+    margin-top: 20px;
+  }
+  .person-container p {
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  /* testimonial section media query end */
+
+  /* footer section media query start */
+
+  .footer-section {
+    margin-top: 50px;
+  }
+  .copyright-section p {
+    font-size: 10px;
+  }
+  .terms #copyright {
+    font-size: 10px;
+  }
+  .terms a {
+    font-weight: 700;
+  }
+  .copyright-section #copyright {
+    color: rgb(128, 142, 156);
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .policy a {
+    margin-right: 10px;
+    font-size: 8px;
+  }
+  .policy {
+    margin-right: 10px;
+  }
+  /* footer section media query end */
+
+  .navbar-nav {
+    margin: 15px auto;
+}
+
+.navbar-brand {
+    margin: 15px auto;
+}
+
+.search-body {
+    margin: 15px auto;
+    width: 90%;
+    max-width: 300px;
+}
+
+.header-title {
+    font-size: 32px;
+}
+
+.header-detail {
+    font-size: 14px;
+}
+
+.detail-section p {
+    font-size: 13px;
+}
+
+.card {
+    margin: 15px auto;
+}
+
+.card img {
+    height: auto;
+    padding: 10px;
+}
+
+.card-body h6 {
+    font-size: 13px;
+}
+
+.card-body h5 {
+    font-size: 16px;
+}
+
+.selling-section button,
+.experience-section button,
+.materials-section button,
+.testimonial-section button {
+    font-size: 12px;
+}
+
+.footer-section h4,
+.footer-section h6,
+.footer-section p {
+    font-size: 12px;
+}
+
+.person-container {
+    margin-top: 20px;
+}
+
+.person-container img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+}
+
+.person-container h5,
+.person-container p {
+    font-size: 10px;
+}
+}
+
+
+
+
